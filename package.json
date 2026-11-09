@@ -1,0 +1,27 @@
+{
+  "name": "antigravity-cloak-fixed",
+  "version": "0.1.0",
+  "description": "Magpie gateway middleware that cloaks Claude/Codex/Hermes identity phrases in BOTH top-level system and interleaved anthropic messages[] system/developer messages",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "antigravity-cloak-fixed.middleware.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "magpie": {
+    "middleware": "./antigravity-cloak-fixed.middleware.js",
+    "options": {
+      "extraWords": [],
+      "accounts": ["antigravity"],
+      "off": false
+    }
+  },
+  "keywords": [
+    "magpie",
+    "magpie-middleware",
+    "antigravity",
+    "claude-code",
+    "llm-gateway"
+  ]
+}
